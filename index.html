@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title> Sketch</title>
+</head>
+
+<body>
+  <button class="resize">Resize Grid</button>
+  <div class="container"></div>
+  <div class="board"></div>
+  <div class="button">
+    <button onclick="changecolor('green')">green</button>
+    <button onclick="changecolor('white')">erasor</button>
+    <button onclick="changecolor('gray')">gray</button>
+    <button onclick="changecolor(random)">random</button>
+    <button onclick="changecolor(reset)">reset</button>
+  </div>
+  <input type="text" placeholder="size of board" value="16" onchange="changesize(this.value)" />
+  <script src="script.js"></script>
+</body>
+
+</html>
